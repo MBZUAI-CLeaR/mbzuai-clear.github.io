@@ -2,6 +2,8 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      <img src="/assets/img/mbzuai_clear_logo.png" alt="Logo" style="height: 128px;"> <!-- Adjust the path and style as needed -->
+      {% comment %} <span class="font-weight-bold">MBZUAI-CLeaR</span> {% endcomment %}
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
@@ -17,7 +19,10 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
+          <span class="font-weight-bold">
             {{- site.title -}}
+              </span>
+            
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
