@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mbzuai-clear.github.io/sitemap.xml
+Sitemap: https://yukang1996.github.io/sitemap.xml
