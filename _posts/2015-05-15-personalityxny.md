@@ -7,8 +7,6 @@ tags: causality projects
 thumbnail: assets/img/post/personality_image.png
 ---
 
-
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/post/personality_image.png" class="img-fluid rounded z-depth-1" %}
@@ -22,4 +20,3 @@ As a group of researchers interested in AI for scientific discovery, we are curr
 We appreciate your time, your curiosity, and your contribution! <br/>
 <a href='https://personality-xny.com/'>Personality-XnY</a>
 </div>
-

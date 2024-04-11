@@ -1,2 +1,1 @@
-
-# MBZUAI-CLeaR
+MBZUAI-CLeaR

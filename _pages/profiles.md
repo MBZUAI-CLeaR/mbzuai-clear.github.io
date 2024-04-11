@@ -64,5 +64,4 @@ alumni:
     status: "Alumni"
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/sara_lee"
-
 ---
