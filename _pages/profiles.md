@@ -36,12 +36,12 @@ students:
   - name: "Boyang Sun"
     status: "PhD"
     image: "/assets/img/Boyang_Sun.png"
-    link: "https://example.com/jane_smith"
+    link: "https://scholar.google.com/citations?user=0B1w6_8AAAAJ"
 
   - name: "Yifan Shen"
     status: "PhD"
     image: "/assets/img/yifan_shen.jpg"
-    link: "https://example.com/jane_smith"
+    link: "https://sanshuiii.github.io/about/"
 
   - name: "Ayana Mussabayeva"
     status: "PhD"
@@ -80,7 +80,7 @@ students:
   - name: "Yiqing Li"
     status: "Msc"
     image: "/assets/img/image_not_found.jpeg"
-    link: "https://example.com/jane_smith"
+    link: "https://leeedwina430.github.io/"
 
   - name: "Liyuan Meng"
     status: "Msc"
