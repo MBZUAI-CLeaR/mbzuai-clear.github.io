@@ -58,6 +58,13 @@ students:
     status: "PhD"
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
+  
+  - name: "Xueran Han"
+    status: "PhD"
+    image: "/assets/img/image_not_found.jpeg"
+    link: "https://example.com/jane_smith"
+  
+
 
   - name: "Yan Li"
     status: "Msc"
@@ -71,6 +78,11 @@ students:
 
 
   - name: "Yiqing Li"
+    status: "Msc"
+    image: "/assets/img/image_not_found.jpeg"
+    link: "https://example.com/jane_smith"
+
+  - name: "Liyuan Meng"
     status: "Msc"
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
@@ -96,6 +108,11 @@ postdocs:
     status: "Research Associate"
     image: "/assets/img/yongqiang_chen.jpeg"
     link: "https://lfhase.win/"
+
+  - name: "Qiang Huang"
+    status: "Research Associate"
+    image: "/assets/img/qianghuang.png"
+    link: "https://15754311016.github.io/qianghuang.github.io/"
 
 engineers:
   - name: "Wong Yu Kang"
