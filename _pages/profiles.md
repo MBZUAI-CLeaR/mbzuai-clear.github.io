@@ -17,6 +17,11 @@ faculty:
     image: "/assets/img/Jin-Tian-Profile-Photo-1-1.jpg"
     link: "https://mbzuai.ac.ae/study/faculty/jin-tian/"
 
+  - name: "Mingming Gong"
+    status: "Associate Professor"
+    image: "/assets/img/Mingming_Gong.jpg"
+    link: "https://mingming-gong.github.io/"
+
 students:
   - name: "Loka Li"
     status: "PhD"
