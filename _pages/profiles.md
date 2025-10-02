@@ -20,7 +20,7 @@ faculty:
 students:
   - name: "Loka Li"
     status: "PhD"
-    image: "/assets/img/image_not_found.jpeg"
+    image: "/assets/img/Longkang_Li.jpg"
     link: "https://lokali.github.io/"
 
   - name: "Gongxu Luo"
@@ -45,7 +45,7 @@ students:
 
   - name: "Ayana Mussabayeva"
     status: "PhD"
-    image: "/assets/img/image_not_found.jpeg"
+    image: "/assets/img/ayana.png"
     link: "https://ayanamussabayeva.github.io/"
 
 
