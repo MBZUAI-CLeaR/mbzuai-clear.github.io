@@ -48,6 +48,11 @@ students:
     image: "/assets/img/yifan_shen.jpg"
     link: "https://sanshuiii.github.io/about/"
 
+  - name: "Peiyuan Zhu"
+    status: "PhD"
+    image: "/assets/img/image_not_found.jpeg"
+    link: "https://example.com/jane_smith"
+
   - name: "Ayana Mussabayeva"
     status: "PhD"
     image: "/assets/img/ayana.png"
@@ -74,12 +79,12 @@ students:
   - name: "Yan Li"
     status: "Msc"
     image: "/assets/img/image_not_found.jpeg"
-    link: "https://example.com/jane_smith"
+    link: "https://github.com/pomiehuan"
 
   - name: "Yunlong Deng"
     status: "Msc"
     image: "/assets/img/image_not_found.jpeg"
-    link: "https://example.com/jane_smith"
+    link: "https://openreview.net/profile?id=~Yunlong_Deng1"
 
 
   - name: "Yiqing Li"
