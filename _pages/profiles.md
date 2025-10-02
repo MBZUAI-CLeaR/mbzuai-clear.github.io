@@ -7,15 +7,15 @@ nav: true
 nav_order: 7
 
 faculty:
-  - name: "John Doe"
+  - name: "Kun Zhang"
     status: "Professor"
-    image: "/assets/img/image_not_found.jpeg"
-    link: "https://example.com/john_doe"
+    image: "/assets/img/kun-zhang.jpg"
+    link: "https://www.andrew.cmu.edu/user/kunz1/index.html"
 
-  - name: "John Doe"
+  - name: "Jin Tian"
     status: "Professor"
-    image: "/assets/img/image_not_found.jpeg"
-    link: "https://example.com/john_doe"
+    image: "assets/img/Jin-Tian-Profile-Photo-1-1.jpg"
+    link: "https://mbzuai.ac.ae/study/faculty/jin-tian/"
 
 students:
   - name: "Jane Smith"
