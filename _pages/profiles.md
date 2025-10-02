@@ -130,8 +130,8 @@ engineers:
     image: "/assets/img/yukang.jpeg"
     link: "https://scholar.google.com/citations?user=K3A4ok4AAAAJ"
 
-visiting scholars:
-  - name: "Xiaofeixia Wang"
+visiting_scholars:
+  - name: "Xiaofei Wang"
     status: "Professor, Northeast Normal University"
     image: "/assets/img/xiaofei_wang.jpeg"
     link: "https://www.linkedin.com/in/xiaofei-wang-60252531?originalSubdomain=cn"
