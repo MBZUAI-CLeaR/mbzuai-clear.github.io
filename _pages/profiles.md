@@ -59,6 +59,23 @@ students:
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
 
+  - name: "Yan Li"
+    status: "Msc"
+    image: "/assets/img/image_not_found.jpeg"
+    link: "https://example.com/jane_smith"
+
+  - name: "Yunlong Deng"
+    status: "Msc"
+    image: "/assets/img/image_not_found.jpeg"
+    link: "https://example.com/jane_smith"
+
+
+  - name: "Yiqing Li"
+    status: "Msc"
+    image: "/assets/img/image_not_found.jpeg"
+    link: "https://example.com/jane_smith"
+
+
 postdocs:
   - name: "Guangyi Chen"
     status: "Research Scientist"

@@ -5,61 +5,85 @@ title: People
 <div class="post">
   <article>
     <div class="container">
-      <h2>Faculty</h2>
-      <hr>
-      <div class="row">
-        {% for person in page.faculty %}
-          <div class="col-md-4">
-            <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
-            <h3>
-              <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
-            </h3>
-            <p>{{ person.status }}</p>
-          </div>
-        {% endfor %}
-      </div>
+      {% if page.faculty %}
+        <h2>Faculty</h2>
+        <hr>
+        <div class="row">
+          {% for person in page.faculty %}
+            <div class="col-md-4">
+              <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
+              <h3>
+                <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
+              </h3>
+              <p>{{ person.status }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
 
-      <h2>Students</h2>
-      <hr>
-      <div class="row">
-        {% for person in page.students %}
-          <div class="col-md-4">
-            <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
-            <h3>
-              <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
-            </h3>
-            <p>{{ person.status }}</p>
-          </div>
-        {% endfor %}
-      </div>
+      {% if page.students %}
+        <h2>Students</h2>
+        <hr>
+        <div class="row">
+          {% for person in page.students %}
+            <div class="col-md-4">
+              <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
+              <h3>
+                <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
+              </h3>
+              <p>{{ person.status }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
 
-      <h2>Postdocs</h2>
-      <hr>
-      <div class="row">
-        {% for person in page.postdocs %}
-          <div class="col-md-4">
-            <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
-            <h3>
-              <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
-            </h3>
-            <p>{{ person.status }}</p>
-          </div>
-        {% endfor %}
-      </div>
+      {% if page.postdocs %}
+        <h2>Postdocs</h2>
+        <hr>
+        <div class="row">
+          {% for person in page.postdocs %}
+            <div class="col-md-4">
+              <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
+              <h3>
+                <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
+              </h3>
+              <p>{{ person.status }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
 
-      <h2>Alumni</h2>
-      <hr>
-      <div class="row">
-        {% for person in page.alumni %}
-          <div class="col-md-4">
-            <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
-            <h3>
-              <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
-            </h3>
-            <p>{{ person.status }}</p>
-          </div>
-        {% endfor %}
-      </div>
+      {% if page.engineers %}
+        <h2>Engineers</h2>
+        <hr>
+        <div class="row">
+          {% for person in page.engineers %}
+            <div class="col-md-4">
+              <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
+              <h3>
+                <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
+              </h3>
+              <p>{{ person.status }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if page.alumni %}
+        <h2>Alumni</h2>
+        <hr>
+        <div class="row">
+          {% for person in page.alumni %}
+            <div class="col-md-4">
+              <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
+              <h3>
+                <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
+              </h3>
+              <p>{{ person.status }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
       <hr>
     </div>
   </article>
