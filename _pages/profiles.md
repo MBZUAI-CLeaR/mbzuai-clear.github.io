@@ -26,11 +26,11 @@ students:
   - name: "Gongxu Luo"
     status: "PhD"
     image: "/assets/img/image_not_found.jpeg"
-    link: "https://scholar.google.com/citations?user=1qoKnMQAAAAJ&hl=zh-CN"
+    link: "https://scholar.google.com/citations?user=1qoKnMQAAAAJ"
 
   - name: "Zhenhao Chen"
     status: "PhD"
-    image: "assets/img/Zhenhao_Chen.jpg"
+    image: "/assets/img/Zhenhao_Chen.jpg"
     link: "https://zhenhaochenofficial.github.io/"
 
   - name: "Boyang Sun"
@@ -63,7 +63,7 @@ postdocs:
   - name: "Zijian Li"
     status: "Research Associate"
     image: "/assets/img/Zijian_Li.jpg"
-    link: "https://example.com/alex_johnson"
+    link: "https://scholar.google.com/citations?user=j3ilESoAAAAJ"
 
   - name: "Yuewen Sun"
     status: "Research Associate"
@@ -75,14 +75,19 @@ postdocs:
     image: "/assets/img/yongqiang_chen.jpeg"
     link: "https://lfhase.win/"
 
-alumni:
-  - name: "Sara Lee"
-    status: "Alumni"
-    image: "/assets/img/image_not_found.jpeg"
-    link: "https://example.com/sara_lee"
+engineers:
+  - name: "Wong Yu Kang"
+    status: "Research Engineer"
+    image: "/assets/img/yukang.jpeg"
+    link: "https://scholar.google.com/citations?user=K3A4ok4AAAAJ"
+# alumni:
+#   - name: "Sara Lee"
+#     status: "Alumni"
+#     image: "/assets/img/image_not_found.jpeg"
+#     link: "https://example.com/sara_lee"
 
-  - name: "Sara Lee"
-    status: "Alumni"
-    image: "/assets/img/image_not_found.jpeg"
-    link: "https://example.com/sara_lee"
+#   - name: "Sara Lee"
+#     status: "Alumni"
+#     image: "/assets/img/image_not_found.jpeg"
+#     link: "https://example.com/sara_lee"
 ---
