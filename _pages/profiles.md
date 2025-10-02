@@ -53,6 +53,11 @@ students:
     status: "PhD"
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
+    
+  - name: "Sanjay Manjunath"
+    status: "PhD"
+    image: "/assets/img/image_not_found.jpeg"
+    link: "https://example.com/jane_smith"
 
 postdocs:
   - name: "Guangyi Chen"
