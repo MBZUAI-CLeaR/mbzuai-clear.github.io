@@ -89,7 +89,7 @@ students:
 
   - name: "Yiqing Li"
     status: "Msc"
-    image: "/assets/img/image_not_found.jpeg"
+    image: "/assets/img/yiqing_li.jpeg"
     link: "https://leeedwina430.github.io/"
 
   - name: "Liyuan Meng"
@@ -129,6 +129,13 @@ engineers:
     status: "Research Engineer"
     image: "/assets/img/yukang.jpeg"
     link: "https://scholar.google.com/citations?user=K3A4ok4AAAAJ"
+
+visiting scholars:
+  - name: "Xiaofeixia Wang"
+    status: "Professor, Northeast Normal University"
+    image: "/assets/img/xiaofei_wang.jpeg"
+    link: "https://www.linkedin.com/in/xiaofei-wang-60252531?originalSubdomain=cn"
+
 # alumni:
 #   - name: "Sara Lee"
 #     status: "Alumni"
