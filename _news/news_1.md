@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We submitted 10 papers to Neurips and 9 of them got accepted with 1 being the spotlight paper.
+We got 12 papers accepted in NeurIPS 2025!.
