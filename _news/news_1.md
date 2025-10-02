@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We got 12 papers accepted in NeurIPS 2025!.
+We got 12 papers accepted in NeurIPS 2025!
