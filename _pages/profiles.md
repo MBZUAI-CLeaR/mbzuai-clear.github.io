@@ -58,23 +58,20 @@ students:
     image: "/assets/img/ayana.png"
     link: "https://ayanamussabayeva.github.io/"
 
-
   - name: "Xin Liu"
     status: "PhD"
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
-    
+
   - name: "Sanjay Manjunath"
     status: "PhD"
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
-  
+
   - name: "Xueran Han"
     status: "PhD"
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
-  
-
 
   - name: "Yan Li"
     status: "Msc"
@@ -86,7 +83,6 @@ students:
     image: "/assets/img/image_not_found.jpeg"
     link: "https://openreview.net/profile?id=~Yunlong_Deng1"
 
-
   - name: "Yiqing Li"
     status: "Msc"
     image: "/assets/img/yiqing_li.jpeg"
@@ -97,13 +93,12 @@ students:
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
 
-
 postdocs:
   - name: "Guangyi Chen"
     status: "Research Scientist"
     image: "/assets/img/Guangyi_Chen2.jpg"
     link: "https://chengy12.github.io/"
-  
+
   - name: "Zijian Li"
     status: "Research Associate"
     image: "/assets/img/Zijian_Li.jpg"
@@ -113,7 +108,7 @@ postdocs:
     status: "Research Associate"
     image: "/assets/img/yuewen_sun.png"
     link: "https://yuewen-sun.github.io/"
-  
+
   - name: "Yongqiang Chen"
     status: "Research Associate"
     image: "/assets/img/yongqiang_chen.jpeg"
@@ -135,7 +130,6 @@ visiting_scholars:
     status: "Professor, Northeast Normal University"
     image: "/assets/img/xiaofei_wang.jpeg"
     link: "https://www.linkedin.com/in/xiaofei-wang-60252531?originalSubdomain=cn"
-
 # alumni:
 #   - name: "Sara Lee"
 #     status: "Alumni"
