@@ -66,7 +66,12 @@ students:
   - name: "Sanjay Manjunath"
     status: "PhD"
     image: "/assets/img/image_not_found.jpeg"
-    link: "https://example.com/jane_smith"
+    link: "https://scholar.google.com/citations?user=FozAH6MAAAAJ&hl=en"
+
+  - name: "Anuar Aimoldin"
+    status: "PhD"
+    image: "/assets/img/anuar_aimoldin.jpg"
+    link: "https://scholar.google.com/citations?user=SE9vprcAAAAJ&hl=en"
 
   - name: "Xueran Han"
     status: "PhD"
@@ -77,6 +82,11 @@ students:
     status: "Msc"
     image: "/assets/img/yiqing_li.jpeg"
     link: "https://leeedwina430.github.io/"
+
+  - name: "Harsh Shrivastava"
+    status: "Msc"
+    image: "/assets/img/harsh_shrivastava.jpg"
+    link: "https://harshvardhansh.github.io/"
 
   - name: "Liyuan Meng"
     status: "Msc"
