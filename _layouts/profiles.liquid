@@ -29,7 +29,11 @@ title: People
             <div class="col-md-4">
               <img src="{{ person.image }}" alt="{{ person.name }}" style="width:100%">
               <h3>
-                <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
+                {% if person.link %}
+                  <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
+                {% else %}
+                  {{ person.name }}
+                {% endif %}
               </h3>
               <p>{{ person.status }}</p>
             </div>
@@ -86,7 +90,7 @@ title: People
       {% endif %}
 
       {% if page.alumni %}
-        <h2>Alumni</h2>
+        <h2>Alumni/Past Members</h2>
         <hr>
         <div class="row">
           {% for person in page.alumni %}

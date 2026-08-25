@@ -73,16 +73,6 @@ students:
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
 
-  - name: "Yan Li"
-    status: "Msc"
-    image: "/assets/img/image_not_found.jpeg"
-    link: "https://github.com/pomiehuan"
-
-  - name: "Yunlong Deng"
-    status: "Msc"
-    image: "/assets/img/image_not_found.jpeg"
-    link: "https://openreview.net/profile?id=~Yunlong_Deng1"
-
   - name: "Yiqing Li"
     status: "Msc"
     image: "/assets/img/yiqing_li.jpeg"
@@ -92,6 +82,10 @@ students:
     status: "Msc"
     image: "/assets/img/image_not_found.jpeg"
     link: "https://example.com/jane_smith"
+
+  - name: "Jinyuan Hu"
+    status: "Msc"
+    image: "/assets/img/image_not_found.jpeg"
 
 postdocs:
   - name: "Guangyi Chen"
@@ -119,25 +113,30 @@ postdocs:
     image: "/assets/img/qianghuang.png"
     link: "https://15754311016.github.io/qianghuang.github.io/"
 
-engineers:
+visiting_scholars:
+  - name: "Feng Xie"
+    status: "Associate Professor, Beijing Technology and Business University"
+    image: "/assets/img/feng_xie.png"
+    link: "https://scholar.google.com/citations?user=stLFCtQAAAAJ&hl=en"
+
+alumni:
+  - name: "Xiaofei Wang"
+    status: "Professor, Northeast Normal University"
+    image: "/assets/img/xiaofei_wang.jpeg"
+    link: "https://www.linkedin.com/in/xiaofei-wang-60252531?originalSubdomain=cn"
+
   - name: "Wong Yu Kang"
     status: "Research Engineer"
     image: "/assets/img/yukang.jpeg"
     link: "https://scholar.google.com/citations?user=K3A4ok4AAAAJ"
 
-visiting_scholars:
-  - name: "Xiaofei Wang"
-    status: "Professor, Northeast Normal University"
-    image: "/assets/img/xiaofei_wang.jpeg"
-    link: "https://www.linkedin.com/in/xiaofei-wang-60252531?originalSubdomain=cn"
-# alumni:
-#   - name: "Sara Lee"
-#     status: "Alumni"
-#     image: "/assets/img/image_not_found.jpeg"
-#     link: "https://example.com/sara_lee"
+  - name: "Yan Li"
+    status: "Msc"
+    image: "/assets/img/image_not_found.jpeg"
+    link: "https://github.com/pomiehuan"
 
-#   - name: "Sara Lee"
-#     status: "Alumni"
-#     image: "/assets/img/image_not_found.jpeg"
-#     link: "https://example.com/sara_lee"
+  - name: "Yunlong Deng"
+    status: "Msc"
+    image: "/assets/img/image_not_found.jpeg"
+    link: "https://openreview.net/profile?id=~Yunlong_Deng1"
 ---
