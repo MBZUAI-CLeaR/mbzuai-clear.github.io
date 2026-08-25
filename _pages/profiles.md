@@ -147,6 +147,6 @@ alumni:
 
   - name: "Yunlong Deng"
     status: "Msc"
-    image: "/assets/img/image_not_found.jpeg"
-    link: "https://openreview.net/profile?id=~Yunlong_Deng1"
+    image: "/assets/img/yunlong_deng.jpg"
+    link: "https://scholar.google.com/citations?user=uLt40REAAAAJ&hl=zh-CN"
 ---
