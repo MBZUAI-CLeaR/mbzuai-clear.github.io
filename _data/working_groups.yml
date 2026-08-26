@@ -1,0 +1,11 @@
+- name: Causal Video Group
+  initials: CVG
+  status: Active
+  cadence: Meets weekly
+  description: Causal video research spanning long-term coherence, video editing, multi-shot generation, and physical realism.
+  url: https://causalvideogroup.github.io/
+  order: 1
+  tags:
+    - Video Generation
+    - World Models
+    - Physical Realism

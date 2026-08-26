@@ -6,6 +6,9 @@ author: Zhenhao Chen
 description: "CausalGame asks whether LLM agents can move beyond scientific workflow automation and discover hidden causal mechanisms through active experimentation."
 tags: causality projects
 thumbnail: assets/img/projects/causalgame/overview.png
+homepage_feature: true
+feature_key: causalgame
+feature_weight: 2
 ---
 
 Large language models can search the literature, write code, analyze data, and run experiments. These abilities make the idea of an **AI Scientist** increasingly plausible. Yet automating a research workflow is not the same as making a scientific discovery.

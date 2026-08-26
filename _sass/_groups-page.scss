@@ -1,0 +1,212 @@
+/******************************************************************************
+ * Working groups index
+ ******************************************************************************/
+
+.groups-page {
+  .post-header {
+    max-width: 46rem;
+    margin: 0.75rem 0 2.5rem;
+    padding-bottom: 1.65rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .post-title {
+    margin-bottom: 0.55rem;
+    font-size: 3rem;
+    letter-spacing: -0.035em;
+    line-height: 1.05;
+  }
+
+  .post-description {
+    max-width: 44rem;
+    margin: 0;
+    color: var(--global-text-color-light);
+    font-size: 1.04rem;
+    line-height: 1.55;
+  }
+
+  .working-groups {
+    display: grid;
+    gap: 1.15rem;
+  }
+
+  .group-card {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: minmax(8rem, 9.5rem) minmax(0, 1fr);
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-left: 3px solid var(--global-theme-color);
+    border-radius: 0.55rem;
+    transition:
+      border-color 160ms ease,
+      box-shadow 160ms ease,
+      transform 160ms ease;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      box-shadow: 0 0.65rem 1.6rem rgba(0, 0, 0, 0.07);
+      transform: translateY(-2px);
+    }
+  }
+
+  .group-card__identity {
+    display: flex;
+    padding: 1.35rem 1.1rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    border-right: 1px solid var(--global-divider-color);
+  }
+
+  .group-card__initials {
+    color: var(--global-theme-color);
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.055em;
+    line-height: 1;
+  }
+
+  .group-card__eyebrow {
+    color: var(--global-text-color-light);
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  .group-card__content {
+    padding: 1.3rem 1.45rem 1.35rem;
+  }
+
+  .group-card__meta {
+    display: flex;
+    margin-bottom: 0.55rem;
+    gap: 0.65rem;
+    align-items: center;
+    color: var(--global-text-color-light);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .group-card__status {
+    display: inline-flex;
+    gap: 0.35rem;
+    align-items: center;
+    color: var(--global-theme-color);
+  }
+
+  .group-card__status-dot {
+    width: 0.42rem;
+    height: 0.42rem;
+    background: currentColor;
+    border-radius: 50%;
+  }
+
+  .group-card__title {
+    margin: 0 0 0.55rem;
+    font-size: 1.55rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .group-card__description {
+    max-width: 39rem;
+    margin: 0 0 0.9rem;
+    color: var(--global-text-color-light);
+    font-size: 0.94rem;
+    line-height: 1.55;
+  }
+
+  .group-card__tags {
+    display: flex;
+    margin: 0 0 1rem;
+    padding: 0;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    list-style: none;
+
+    li {
+      padding: 0.25rem 0.55rem;
+      color: var(--global-text-color-light);
+      background: var(--global-bg-color);
+      border: 1px solid var(--global-divider-color);
+      border-radius: 999px;
+      font-size: 0.7rem;
+      line-height: 1.2;
+    }
+  }
+
+  .group-card__link {
+    display: inline-block;
+    color: var(--global-theme-color);
+    font-size: 0.83rem;
+    font-weight: 600;
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .groups-page {
+    .post-header {
+      margin-bottom: 2rem;
+    }
+
+    .post-title {
+      font-size: 2.45rem;
+    }
+
+    .post-description {
+      font-size: 0.98rem;
+    }
+
+    .group-card {
+      grid-template-columns: 1fr;
+    }
+
+    .group-card__identity {
+      padding: 1rem 1.15rem;
+      align-items: center;
+      flex-direction: row;
+      border-right: 0;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    .group-card__initials {
+      font-size: 1.7rem;
+    }
+
+    .group-card__content {
+      padding: 1.1rem 1.15rem 1.2rem;
+    }
+
+    .group-card__meta {
+      gap: 0.45rem;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .groups-page .group-card {
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
+  }
+}

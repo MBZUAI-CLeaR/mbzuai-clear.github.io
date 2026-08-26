@@ -123,8 +123,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: MBZUAI-CLeaR # blog_name will be displayed in your blog page
-blog_description: a space to learn about causality
+blog_name: CLeaR Voices # blog_name will be displayed in your blog page
+blog_description: Research stories, ideas, and perspectives from our group.
 permalink: /blog/:year/:title/
 
 # Pagination

@@ -5,6 +5,9 @@ date: 2024-04-1 11:00:00
 description: Ever wonder what your personality is and how your personality is related to other things?
 tags: causality projects
 thumbnail: assets/img/post/personality_image.png
+homepage_feature: true
+feature_key: personalityxny
+feature_weight: 1
 ---
 
 <div class="row mt-3">

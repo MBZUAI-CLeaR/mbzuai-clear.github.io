@@ -1,0 +1,99 @@
+{% assign featured_projects = site.projects | where: 'homepage_feature', true | sort: 'importance' %}
+{% assign featured_posts = site.posts | where: 'homepage_feature', true %}
+{% assign featured_total = featured_projects.size | plus: featured_posts.size %}
+{% assign featured_visible_total = 3 %}
+{% if featured_total < featured_visible_total %}
+  {% assign featured_visible_total = featured_total %}
+{% endif %}
+
+{% if featured_total > 0 %}
+  <section
+    class="home-featured"
+    aria-labelledby="home-featured-title"
+    aria-roledescription="carousel"
+    data-home-featured
+  >
+    <div class="home-featured__header">
+      <div class="home-featured__heading">
+        <h2 id="home-featured-title" class="home-featured__title">Featured from CLeaR</h2>
+        <p class="home-featured__intro">A fresh selection on every visit.</p>
+      </div>
+
+      {% if featured_visible_total > 2 %}
+        <div class="home-featured__controls" data-feature-controls hidden>
+          <button type="button" class="home-featured__button" data-feature-previous aria-label="Scroll featured content left">
+            <span aria-hidden="true">←</span>
+          </button>
+          <p class="home-featured__status" aria-live="polite">{{ featured_visible_total }} picks</p>
+          <button type="button" class="home-featured__button" data-feature-next aria-label="Scroll featured content right">
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="home-featured__viewport" data-feature-viewport>
+      <div class="home-featured__track" data-feature-track>
+        {% for project in featured_projects %}
+          {%- capture project_href -%}
+            {%- if project.redirect -%}{{ project.redirect }}{%- else -%}{{ project.url | relative_url }}{%- endif -%}
+          {%- endcapture -%}
+          <article
+            class="home-featured-card"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Featured project: {{ project.title }}"
+            data-feature-slide
+            data-feature-id="project:{{ project.feature_key | default: project.slug }}"
+            data-feature-key="{{ project.feature_key | default: project.slug }}"
+            data-feature-weight="{{ project.feature_weight | default: 1 }}"
+          >
+            {% if project.img %}
+              <a class="home-featured-card__media home-featured-card__media--project" href="{{ project_href }}" aria-label="Explore {{ project.title }}">
+                <img src="{{ project.img | relative_url }}" alt="{{ project.title }} project preview" loading="lazy" decoding="async">
+              </a>
+            {% endif %}
+            <div class="home-featured-card__body">
+              <p class="home-featured-card__meta">Featured project · {{ project.category }}</p>
+              <h3><a href="{{ project_href }}">{{ project.title }}</a></h3>
+              <p class="home-featured-card__description">{{ project.description | strip_html }}</p>
+              <a class="home-featured-card__link" href="{{ project_href }}">
+                Explore project <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+        {% endfor %}
+
+        {% for post in featured_posts %}
+          {%- capture post_href -%}
+            {%- if post.redirect -%}{{ post.redirect }}{%- else -%}{{ post.url | relative_url }}{%- endif -%}
+          {%- endcapture -%}
+          <article
+            class="home-featured-card"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="Featured article: {{ post.title }}"
+            data-feature-slide
+            data-feature-id="post:{{ post.feature_key | default: post.slug }}"
+            data-feature-key="{{ post.feature_key | default: post.slug }}"
+            data-feature-weight="{{ post.feature_weight | default: 1 }}"
+          >
+            {% if post.thumbnail %}
+              <a class="home-featured-card__media" href="{{ post_href }}" aria-label="Read {{ post.title }}">
+                <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }} article preview" loading="lazy" decoding="async">
+              </a>
+            {% endif %}
+            <div class="home-featured-card__body">
+              <p class="home-featured-card__meta">From the blog · {{ post.date | date: '%b %Y' }}</p>
+              <h3><a href="{{ post_href }}">{{ post.title }}</a></h3>
+              <p class="home-featured-card__description">{{ post.description | strip_html }}</p>
+              <a class="home-featured-card__link" href="{{ post_href }}">
+                Read article <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}

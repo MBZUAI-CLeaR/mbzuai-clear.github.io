@@ -40,6 +40,10 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if page.featured_content %}
+      {% include home_featured.liquid %}
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
@@ -74,3 +78,7 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+{% if page.featured_content %}
+  <script defer src="{{ '/assets/js/home-featured.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}

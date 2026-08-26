@@ -4,8 +4,11 @@ title: CausalBind
 description: Causal modeling and structure-constrained learning for protein–molecule virtual screening
 img: assets/img/projects/causalbind/overview.png
 importance: 1
-category: Academia
+category: Academic Research
 related_publications: true
+homepage_feature: true
+feature_key: causalbind
+feature_weight: 1
 ---
 
 **Loka Li · Jin Tian · Kun Zhang**<br>

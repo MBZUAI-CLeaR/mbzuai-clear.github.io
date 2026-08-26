@@ -4,8 +4,11 @@ title: CausalGame
 description: Benchmarking causal thinking of LLM agents through interactive scientific-discovery games
 img: assets/img/projects/causalgame/overview.png
 importance: 2
-category: Academia
+category: Academic Research
 related_publications: true
+homepage_feature: true
+feature_key: causalgame
+feature_weight: 2
 ---
 
 **Zhenhao Chen · Yongqiang Chen · Chenxi Liu · Junchi Yu · Xiangchen Song · Zijian Li · Jialin Li · Philip Torr · Bo Han · Kun Zhang**<br>
