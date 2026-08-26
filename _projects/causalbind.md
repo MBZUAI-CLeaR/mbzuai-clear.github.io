@@ -4,7 +4,7 @@ title: CausalBind
 description: Causal modeling and structure-constrained learning for protein–molecule virtual screening
 img: assets/img/projects/causalbind/overview.png
 importance: 1
-category: work
+category: Academia
 related_publications: true
 ---
 
